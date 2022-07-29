@@ -1,0 +1,47 @@
+def hello():
+    print("hello")
+    
+name = input("what is your name?")
+hello()
+print(name)
+
+
+
+
+
+def hello(to="world"):
+    print("hello,", to)
+    
+hello()
+name = input("what is your name?")
+hello(name)
+
+
+
+
+
+def main():
+    name = input("what is your name?")
+    hello(name)
+    
+def hello(to="world"):
+    print("hello,", to)
+    
+main()
+
+#def can override an existing function name
+
+
+
+
+
+def main():
+    x = int(input("what is x? "))
+    print("x squared is", square(x))
+
+def square(n):
+    #return n ** 2
+    #return pow(n, 2)
+    return n * n
+
+main()
