@@ -1,0 +1,47 @@
+x = input("what is x? ")
+y = input('what is y? ')
+
+z = int(x) + int(y)#if you just write "z = x + y", the answer will be 12. because the x and y here are strings.
+
+print(z)
+
+
+
+
+
+x = int(input("what is x? "))
+y = int(input('what is y? '))
+
+print(x + y)
+
+#this is a other one line way to wirte the code
+#print(int(input"what is x? ")) + int(input("what is y? "))
+
+
+
+
+
+x = float(input('what is x?'))
+y = float(input('what is y?'))
+
+#z = x + y
+
+#round(number[, ndigits])
+z = round(x + y)
+
+#print(z)
+print(f"{z:,}")
+
+
+
+
+
+x = float(input('what is x?'))
+y = float(input('what is y?'))
+
+z = round(x / y, 2)
+
+print(z)
+
+#different way to solve the same problem with round function
+#print(f"{z:.2f}")
