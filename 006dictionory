@@ -1,0 +1,27 @@
+#dict  is a syntax, is used for associating with two things
+students = {"hermione": "gryffindor",
+            "harry": "gryffindor",
+            "ron": "gryffindor",
+            "draco": "slytherin"
+            #"key" or "index":"value"
+}
+
+print(students["hermione"])
+print(students["draco"])
+
+for student in students:
+    print(student)
+    print(student, students[student], sep=",")
+
+
+
+
+
+
+students = [
+    {"name": "ton", "house": "gry", "patronus": "ball"},
+    {"name": "sep", "house": "sly", "patronus": "jhdba"}
+]
+
+for student in students:
+    print(student["name"], student["house"],sep=",")
